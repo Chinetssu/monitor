@@ -11,7 +11,7 @@
 
 .App {
     width: 1600px;
-    background-color: cadetblue;
+    background-color: rgb(85, 85, 85);
     height: 600px;
 }
 
@@ -33,7 +33,7 @@
     display: flex;
     width: 1100px;
     border: 1px solid darkslategrey;
-    background-color: lightgray;
+    background-color: rgb(209, 209, 209);
 
 }
 .EPItem{
