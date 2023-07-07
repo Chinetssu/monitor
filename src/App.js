@@ -14,7 +14,7 @@ function App() {
         <div className="Content">
           <div className="EPList">
             <EPHat/>
-           
+            <EPItem/>
           </div>
         </div>
       </div>
