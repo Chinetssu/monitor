@@ -1,6 +1,6 @@
 .myCell{
     width: 200px;
-    border: 1px solid darkblue;
+    border: 1px solid black;
     justify-content: center;
-    background-color: 
+    background: none;
 }

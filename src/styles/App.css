@@ -15,14 +15,25 @@
     height: 600px;
 }
 
+.WorkingPane{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
 .EPList{
     margin-top: 30px;
+    background-color: white;
+    width: 1100px;
+    height: 500px;
 }
 
 .Hat{
     display: flex;
     width: 1100px;
-    border: 1px solid darkslategray;
+    border: 1px solid darkslategrey;
+    background-color: lightgray;
 
 }
 .EPItem{
@@ -30,9 +41,4 @@
     width: 1100px;
     border: 1px solid darkslategray;
     justify-content: space-between;
-}
-.Cell{
-    width: 200px;
-    border: 1px solid darkblue;
-    justify-content: center;
 }
