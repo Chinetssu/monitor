@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import classes from './styles/App.css';
+import MyCell from './components/UI/cell/MyCell';
+import EPHat from './components/EPHat';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="MainPart">
+        <div className="Content">
+          <div className="EPList">
+            <EPHat/>
+            <div className="EPItem">
+              <div style={{width: 100}} className="Cell">Год набора</div>
+              <div className="Cell">Ячейка</div>
+              <div className="Cell">Ячейка</div>
+              <div className="Cell">Ячейка</div>
+              <div className="Cell">Ячейка</div>
+              <div className="Cell">Ячейка</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="SidePart">
+        <div className="InfoPanel">
+        </div>
+      </div>
+      <div className="PopupWindow"></div>
     </div>
   );
 }

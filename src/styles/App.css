@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 1600px;
+    background-color: cadetblue;
+    height: 600px;
+}
+
+.EPList{
+    margin-top: 30px;
+}
+
+.Hat{
+    display: flex;
+    width: 1100px;
+    border: 1px solid darkslategray;
+
+}
+.EPItem{
+    display: flex;
+    width: 1100px;
+    border: 1px solid darkslategray;
+    justify-content: space-between;
+}
+.Cell{
+    width: 200px;
+    border: 1px solid darkblue;
+    justify-content: center;
+}
