@@ -33,12 +33,6 @@ function App() {
             {EPsData.map(post =>
             <EPItem EPData = {post}/>
             )}
-            {EPsData.map(post =>
-            <EPItem EPData = {post}/>
-            )}
-            {EPsData.map(post =>
-            <EPItem EPData = {post}/>
-            )}
           </div>
         </div>
       </div>
