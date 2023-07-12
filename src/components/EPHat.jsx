@@ -1,7 +1,7 @@
 import React from "react";
 import MyCell from "./UI/cell/MyCell";
 
-const EPList = () =>{
+const EPHat = () =>{
     return(
         <div className="Hat">
             <MyCell style={{width: 100}}><h4>Год набора</h4></MyCell>
@@ -14,4 +14,4 @@ const EPList = () =>{
     );
 };
 
-export default EPList;
+export default EPHat;
